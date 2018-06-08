@@ -13,13 +13,13 @@
 </head>
 
 <body>
-<div class="container pt-4 mt-5">
+<div class="container pt-4">
   <!-- navbar -->
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
     <div class="container">
 
-      <a class="navbar-brand order-1" href="#" target="_blank">Mornington Peninsula Python meetup</a>
+      <a class="navbar-brand order-1" href="#" target="_blank">Mornington Peninsula Python User Group</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,16 +27,30 @@
 
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">About</a>
-          <a class="nav-item nav-link" href="#">Speaker</a>
-          <a class="nav-item nav-link" href="#">Schedule</a>
+          <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#speakers">Speakers</a>
+          <a class="nav-item nav-link" href="#schedule">Schedule</a>
         </div>
       </div>
     </div>
   </nav>
 
   <!-- /navbar -->
+
+  <!-- jumbotron -->
+  <div class="jumbotron jumbotron-fluid bg-info text-white">
+    <div class="container text-sm-center pt-5">
+      <h1 class="display-3">First Ever Meetup Coming</h1>
+      <p class="lead">Gather the best community and bring most up-to-date technologies to Mornington Peninsula
+        Region.</p>
+      <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
+        <button type="button" class="btn btn-primary btn-lg">Register Now</button>
+        <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
+      </div>
+    </div>
+  </div>
+  <!-- /jumbotron -->
 
   <!-- about -->
   <div class="row">
@@ -72,7 +86,7 @@
   </div><!-- /about -->
 
   <!-- speakers -->
-  <h1 class="display-4">Speakers</h1>
+  <h1 id="speakers" class="display-4">Speakers</h1>
   <!-- /speakers -->
 
 
@@ -80,15 +94,19 @@
   <h1 class="display-4">Schedule</h1>
   <!-- /schedule -->
 
+  <!-- callout -->
+  <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5">Don't Miss Out. Register Now!</button>
+  <!-- /callout -->
+
   <!-- signup form-->
   <hr>
   <div class="row py-4 text-muted">
     <div class="col-md col-xl-5">
-      <p><strong>About Mornington Peninsula Python meetup (MPPy)</strong></p>
-      <p>MPPy brings technology to community to help people achieve their dreams and change the world.</p>
+      <p><strong>About Mornington Peninsula Python User Group (MPPug)</strong></p>
+      <p>MPPug brings technology to community to help people achieve their dreams and change the world.</p>
     </div>
     <div class="col-md col-xl-5 ml-auto">
-      <p><strong>Stay up-to-date on Mornington Peninsula Python meetup</strong></p>
+      <p><strong>Stay up-to-date on Mornington Peninsula Python User Group</strong></p>
       <div class="input-group">
         <input type="text" class="form-control" placeholder="Email">
         <span class="input-group-btn">
